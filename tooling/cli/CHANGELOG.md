@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.2.2]
+
+- Use older icon types to work around a macOS bug resulting in corrupted 16x16px and 32x32px icons in bundled apps.
+  - [2d545eff](https://www.github.com/tauri-apps/tauri/commit/2d545eff58734ec70f23f11a429d35435cdf090e) fix(cli): corrupted icons in bundled macOS icons ([#5698](https://www.github.com/tauri-apps/tauri/pull/5698)) on 2022-11-28
+
 ## \[1.2.1]
 
 - Fixes injection of Cargo features defined in the configuration file.
